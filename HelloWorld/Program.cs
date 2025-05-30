@@ -6,6 +6,7 @@
         {
             var msg = "Hello, World!";
             HeroSays(msg);
+            HeroSays("Talking something ccesides \"Hello, World!\" ");
         }
 
         public static void HeroSays(string message)
