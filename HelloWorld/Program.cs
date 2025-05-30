@@ -1,10 +1,16 @@
 ﻿namespace HelloWorld
 {
-    internal class Program
+    internal class ContactWithWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var msg = "Hello, World!";
+            HeroSays(msg);
+        }
+
+        public static void HeroSays(string message)
+        {
+            Console.WriteLine($"Hero says: {message}");
         }
     }
 }
