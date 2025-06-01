@@ -147,7 +147,53 @@
               +100xp recived!
              */
 
-           
+            Console.ReadKey();
+            intVar = int.MaxValue;
+            shortVar = short.MaxValue;
+            longVar = long.MaxValue;
+            byteVar = byte.MaxValue;
+            sbyteVar = sbyte.MaxValue;
+
+            uintVar = uint.MaxValue;
+            ushortVar = ushort.MaxValue;
+            ulongVar = ulong.MaxValue;
+
+            stringVar = "UPDATED STRING";
+            charVar = '@';
+
+            doubleVar = double.MaxValue;
+            floatVar = float.MaxValue;
+            decimalVar = decimal.MaxValue;
+
+            boolVar = false;
+
+            Console.WriteLine("/n-------------------");
+            Console.WriteLine("The Variable Shop Returns");
+            Console.WriteLine("-------------------");
+            Console.WriteLine("/nUpdatedValues:");
+
+            Console.WriteLine($"{nameof(intVar)}: {intVar}");
+            Console.WriteLine($"{nameof(shortVar)}: {shortVar}");
+            Console.WriteLine($"{nameof(longVar)}: {longVar}");
+            Console.WriteLine($"{nameof(byteVar)}: {byteVar}");
+            Console.WriteLine($"{nameof(sbyteVar)}: {sbyteVar}");
+
+            Console.WriteLine($"{nameof(uintVar)}: {uintVar}");
+            Console.WriteLine($"{nameof(ushortVar)}: {ushortVar}");
+            Console.WriteLine($"{nameof(ulongVar)}: {ulongVar}");
+
+            Console.WriteLine($"{nameof(stringVar)}: {stringVar}");
+            Console.WriteLine($"{nameof(charVar)}: {charVar}");
+
+            Console.WriteLine($"{nameof(doubleVar)}: {doubleVar}");
+            Console.WriteLine($"{nameof(floatVar)}: {floatVar}");
+            Console.WriteLine($"{nameof(decimalVar)}: {decimalVar}");
+
+
+            Console.WriteLine($"{nameof(boolVar)}: {boolVar}");
+
+            //I'm comleted "The Varible Shop Returns" challenge!
+            //+50x recived!!!
         }
     }
 }
