@@ -4,6 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
+        Math.DominionOfKings();
+        Console.ReadKey();
+        
         Math.TheTriangleFarmer();
         Console.ReadKey();
 
