@@ -4,6 +4,9 @@
     {
         static void Main(string[] args)
         {
+            Math.TheTriangleFarmer();
+            Console.ReadKey();
+
             bool end = false;
             List<string> breadTakers = new List<string>();
             var msg = "Hello, World!";
@@ -12,6 +15,7 @@
             HeroSays("What i can say for you?");
             HeroSays("I'm Hero the Programmer!");
             HeroSays("Who the Unicode One?!");
+            TheVariableShop();
             Console.ReadKey();
             while (!end)
             {
@@ -29,7 +33,7 @@
 
             Console.ReadKey();
 
-            TheVariableShop();
+
         }
 
         public static void HeroSays(string message)
