@@ -4,9 +4,6 @@
     {
         static void Main(string[] args)
         {
-            Math.TheTriangleFarmer();
-            Console.ReadKey();
-
             bool end = false;
             List<string> breadTakers = new List<string>();
             var msg = "Hello, World!";
@@ -30,8 +27,9 @@
             Console.ReadKey();
 
             TheThingNamer3000();
-
             Console.ReadKey();
+
+            
 
 
         }
@@ -197,7 +195,7 @@
             Console.WriteLine($"{nameof(boolVar)}: {boolVar}");
 
             //I'm comleted "The Varible Shop Returns" challenge!
-            //+50x recived!!!
+            //+50xp recived!!!
         }
     }
 }
