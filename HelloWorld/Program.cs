@@ -18,11 +18,14 @@
                 breadTakers.Add(TelimGivingBread(out end));
             }
 
+            Console.Clear();
             foreach(string note in breadTakers)
             {
                 Console.WriteLine(note);
             }
             Console.ReadKey();
+
+            TheThingNamer3000();
         }
 
         public static void HeroSays(string message)
@@ -53,6 +56,42 @@
                     break;
             }
             return result;
+        }
+
+        static void TheThingNamer3000()
+        {
+            Console.Clear();
+            Console.WriteLine("What kind of thing we are talking about?");
+            //string a = Console.ReadLine();
+            string thing = Console.ReadLine();
+
+            Console.WriteLine("How would you describe it? Big? Azure? Tattered?");
+            //string b = Console.ReadLine();
+            string desription = Console.ReadLine();
+
+            //string c = "of Doom";
+            //remove "of" to repair bug of displaying
+            string doom = "Doom";
+
+            //string d = "3000";
+            string threeThousands = "3000";
+            
+            /*Answer this question: 
+             * Aside from comments, what else could you do to make this code more understandable?
+             * 
+             *"a" renamed to "thing"
+             *"b" renamed to "description"
+             *"c" renamed to "doom"
+             *"d" renamed to "threeThousands"
+             */
+
+
+            Console.WriteLine($"The {desription} {thing} of {doom} {threeThousands} !");
+
+
+            /*I'm Compleet "The Thing Namer 3000" Challenge!
+              +100xp recived!!!
+             */
         }
     }
 }
