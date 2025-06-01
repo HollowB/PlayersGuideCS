@@ -26,6 +26,10 @@
             Console.ReadKey();
 
             TheThingNamer3000();
+
+            Console.ReadKey();
+
+            TheVariableShop();
         }
 
         public static void HeroSays(string message)
@@ -92,6 +96,58 @@
             /*I'm Compleet "The Thing Namer 3000" Challenge!
               +100xp recived!!!
              */
+        }
+
+        static void TheVariableShop()
+        {
+            int intVar = int.MinValue;
+            short shortVar = short.MinValue;
+            long longVar = long.MinValue;
+            byte byteVar = byte.MinValue;
+            sbyte sbyteVar = sbyte.MinValue;
+
+            uint uintVar = uint.MinValue;
+            ushort ushortVar = ushort.MinValue;
+            ulong ulongVar = ulong.MinValue;
+
+            string stringVar = "string value";
+            char charVar = 'c';
+
+            double doubleVar = double.MinValue;
+            float floatVar = float.MinValue;
+            decimal decimalVar = decimal.MinValue;
+
+            bool boolVar = true;
+
+            Console.Clear();
+            Console.WriteLine("-------------------");
+            Console.WriteLine("The Variable Shop");
+            Console.WriteLine("-------------------");
+
+            Console.WriteLine($"{nameof(intVar)}: {intVar}");
+            Console.WriteLine($"{nameof(shortVar)}: {shortVar}");
+            Console.WriteLine($"{nameof(longVar)}: {longVar}");
+            Console.WriteLine($"{nameof(byteVar)}: {byteVar}");
+            Console.WriteLine($"{nameof(sbyteVar)}: {sbyteVar}");
+            
+            Console.WriteLine($"{nameof(uintVar)}: {uintVar}");
+            Console.WriteLine($"{nameof(ushortVar)}: {ushortVar}");
+            Console.WriteLine($"{nameof(ulongVar)}: {ulongVar}");
+
+            Console.WriteLine($"{nameof(stringVar)}: {stringVar}");
+            Console.WriteLine($"{nameof(charVar)}: {charVar}");
+
+            Console.WriteLine($"{nameof(doubleVar)}: {doubleVar}");
+            Console.WriteLine($"{nameof(floatVar)}: {floatVar}");
+            Console.WriteLine($"{nameof(decimalVar)}: {decimalVar}");
+
+            Console.WriteLine($"{nameof(boolVar)}: {boolVar}");
+
+            /*I'm compleet "The Variable Shop" challenge
+              +100xp recived!
+             */
+
+           
         }
     }
 }
