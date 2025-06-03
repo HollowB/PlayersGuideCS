@@ -26,6 +26,8 @@ namespace Console2
             BasicConsoleIO.ShowMessage($"({row - 1}, {column})", ConsoleColor.Blue);
             BasicConsoleIO.ShowMessage($"({row}, {column + 1})", ConsoleColor.Magenta);
             BasicConsoleIO.ShowMessage($"({row + 1}, {column})", ConsoleColor.Cyan);
+            Console.Beep();
+            Console.ReadKey(); 
         }
     }
 }
