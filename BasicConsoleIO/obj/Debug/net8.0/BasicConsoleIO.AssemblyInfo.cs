@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BasicConsoleIO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b128ccfc319f5a345937b1e1fd6915d159ac3db1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66f4ebea935885e3a3077089508eb06184da901c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BasicConsoleIO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BasicConsoleIO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
