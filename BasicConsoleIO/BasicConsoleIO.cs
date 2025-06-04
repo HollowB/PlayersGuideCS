@@ -131,5 +131,17 @@ namespace BasicConsoleIO
             Console.WriteLine(messageText);
             Console.ForegroundColor = baseFColor;
         }
+
+        public static void GetUserInput(string message, out string output)
+        {
+            Console.Write(message);
+            output = Console.ReadLine();
+        }
+
+        public static void GetUserInput(string message, out int output)
+        {
+            Console.Write(message);
+            output = int.Parse(Console.ReadLine());        
+        }
     }
 }
