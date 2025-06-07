@@ -12,7 +12,7 @@ namespace DecisionMaking
         {
             bool decision, end = false;
             ShowMainMessage("Byuing inventory");
-            string itemName;
+            string itemName, buyerName= null;
             int itemCost;
             
             Dictionary<int, Dictionary<string, int>> menu = BuildMenu();
@@ -24,8 +24,19 @@ namespace DecisionMaking
                 ShowMagasineMenu(menu);
                 itemCost = GetItemCost(menu, out itemName);
                 ShowMessage($"\nOoo, {itemName}! А у тебя губа не дура!", ConsoleColor.DarkYellow);
-                ShowMessage($"У меня самая лучшая цена на {itemName}, всего {itemCost} дублонов!", ConsoleColor.DarkYellow);
-                GetUserInput("\nБудешь брать?", out decision);
+                if (String.IsNullOrEmpty(buyerName))
+                {
+                    GetUserInput("\nДруг мой, позволь поинтересоваться, как тебя зовут?\n", out buyerName);
+                }
+                if (buyerName == "Грэмм")
+                {
+                    ShowMessage($"\nДля тебя у меня самая лучшая цена на {itemName}, всего {itemCost/2} дублонов!", ConsoleColor.DarkYellow);
+                }
+                else
+                {
+                    ShowMessage($"\nУ меня самая лучшая цена на {itemName}, всего {itemCost} дублонов!", ConsoleColor.DarkYellow);
+                }
+                GetUserInput("\nБудешь брать?\n", out decision);
                 if (decision)
                 {
                     Console.WriteLine("Славное решение, друг мой!");
