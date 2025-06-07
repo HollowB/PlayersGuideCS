@@ -1,7 +1,8 @@
 ﻿using System;
+using System.Security.Cryptography;
 using System.Text;
 namespace BasicConsoleIO
-{ 
+{
     public class BasicConsoleIO
     {
         static void Main(string[] args)
@@ -12,7 +13,7 @@ namespace BasicConsoleIO
         }
 
         private static void GetUserData()
-        { 
+        {
             //Получить пользовательские данные
             Console.Write("Введите ваше имя: ");
             string userName = Console.ReadLine();
@@ -141,7 +142,27 @@ namespace BasicConsoleIO
         public static void GetUserInput(string message, out int output)
         {
             Console.Write(message);
-            output = int.Parse(Console.ReadLine());        
+            output = int.Parse(Console.ReadLine());
+        }
+        public static void GetUserInput(string message, out bool output)
+        {
+            string answer;
+            Console.Write(message);
+            answer = Console.ReadLine();
+            switch (answer.ToLower())
+            {
+                case "д":
+                case "да":
+                case "y":
+                case "yes":
+                case "yeah":
+                    output = true;
+                    break;
+                default:
+                    output = false;
+                    break;
+
+            }
         }
     }
 }

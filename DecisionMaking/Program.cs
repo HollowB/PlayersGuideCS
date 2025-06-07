@@ -4,8 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        DecisionMaking.Watchtower();
-        DecisionMaking.ReparingTheClocktower();
+        SwitchDecisionMaking.BuyingInventory();
+        //DecisionMaking.Watchtower();
+        //DecisionMaking.ReparingTheClocktower();
 
     }
 }
