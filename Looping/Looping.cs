@@ -20,6 +20,28 @@ namespace Looping
             GetHunterGuess(pilotNumber, out hunterNumber);
         }
 
+        public static void MagicCanon()
+        {
+            for (int nBlast = 1; nBlast < 100; nBlast++)
+            {
+                if ((nBlast % 3) == 0 && (nBlast % 5) == 0)
+                {
+                    ShowMessage($"{nBlast}. Комбинированный", ConsoleColor.Blue);
+                }
+                else if ((nBlast % 3) == 0)
+                {
+                    ShowMessage($"{nBlast}. Огненный", ConsoleColor.Red);
+                }
+                else if ((nBlast % 5) == 0)
+                {
+                    ShowMessage($"{nBlast}. Электрический", ConsoleColor.Yellow);
+                }
+                else
+                {
+                    ShowMessage($"{nBlast}. Нормальный", ConsoleColor.DarkGreen);
+                }
+            }
+        }
 
         private static void GetPilotNumber(out int pilotNumber)
         {
