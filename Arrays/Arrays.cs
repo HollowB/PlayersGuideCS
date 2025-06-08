@@ -19,19 +19,61 @@ namespace Arrays
             int[] userArray = new int[arrayLength];
             int[] copyArray = new int[userArray.Length];
 
+            Console.Clear();
+            ShowMainMessage("The Replicator of D'To");
             GetUserArray(arrayLength, userArray);
+
+            Console.Clear();
+            ShowMainMessage("The Replicator of D'To");
 
             CopyUserArray(userArray, copyArray);
 
             ShowArrays(userArray, copyArray);
+
+            LawsOfFreach(copyArray);
         }
 
+        public static void LawsOfFreach(int[] array)
+        {
+            float averageValue;
+            int minValue;
+            Console.Clear();
+
+            ShowMainMessage("The Laws of Freach");
+
+            GetMinValue(array, out minValue);
+            GetAvgValue(array, out averageValue);
+
+            ShowMessage($"\nСреднее значение элементов массива: {averageValue}", ConsoleColor.Magenta);
+            ShowMessage($"\nМинимальное значение элементов массива: {minValue}", ConsoleColor.Cyan);
+
+        }
+
+        private static void GetAvgValue(int[] array, out float averageValue)
+        {
+            int sum = default;
+            averageValue = 0;
+            foreach (int item in array)
+            {
+                sum += item;
+            }
+            averageValue = (float)sum / array.Length; 
+        }
+
+        private static void GetMinValue(int[] array, out int minValue)
+        {
+            minValue = int.MaxValue;
+            foreach (int item in array)
+            {
+                minValue = (item < minValue) ? item : minValue;
+            }
+        }
 
         private static void GetUserArray(int arrayLength, int[] userArray)
         {
-            Console.Clear();
+            
             int value;
-            ShowMainMessage("The Replicator of D'To");
+            
             
             for (int i = 0; i < arrayLength; i++)
             {
@@ -49,8 +91,7 @@ namespace Arrays
         }
         private static void ShowArrays(int[] userArray, int[] copyArray)
         {
-            Console.Clear();
-            ShowMainMessage("The Replicator of D'To");
+            
 
             ShowMessage(nameof(userArray), ConsoleColor.DarkGreen);
             for (int i = 0; i < userArray.Length; i++)
