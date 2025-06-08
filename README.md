@@ -3,7 +3,7 @@
 ## Progress Tracker
 
 :white_circle: Level 10 <br/>
-&nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
+&nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![alt text](https://github.com/HollowB/PlayersGuideCS/blob/main/images/Screenshot_2.png "ProgressTracker Logo")<br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
