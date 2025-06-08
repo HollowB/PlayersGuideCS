@@ -44,7 +44,7 @@
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
 :white_circle: Level 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :small_red_triangle: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
-&nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::white_check_mark::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
+&nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark: &nbsp;&nbsp;&nbsp; +800 XP<br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark: &nbsp;&nbsp;&nbsp; <br/>
 :large_blue_circle: Level 4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :small_red_triangle: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/>
@@ -82,7 +82,7 @@
 | :white_check_mark: | 83 | Discounted Inventory | 50 |   
 | :white_check_mark: | 88 | The Prototype | 100 |   
 | :white_check_mark: | 89 | The Magic Cannon | 100 |   
-| :black_square_button: | 94 | The Replicator of D’To | 100 |   
+| :white_check_mark: | 94 | The Replicator of D’To | 100 |   
 | :black_square_button: | 95 | The Laws of Freach | 50 |   
 | :black_square_button: | 106 | Taking a Number | 100 |   
 | :black_square_button: | 107 | Countdown | 100 |   
