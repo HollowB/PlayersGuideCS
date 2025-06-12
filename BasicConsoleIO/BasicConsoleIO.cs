@@ -164,5 +164,22 @@ namespace BasicConsoleIO
 
             }
         }
+
+        public static void GetUserInputInGange(string message, int min, int max, out int output)
+        {
+            Console.Write(message);
+            int value = int.Parse(Console.ReadLine());
+
+            while (!(min <= value && value <= max))
+            {
+                Console.Clear();
+                Console.Write(message);
+                value = int.Parse(Console.ReadLine());
+                Console.Clear();
+            }
+            output = value;
+        }
+
+        
     }
 }

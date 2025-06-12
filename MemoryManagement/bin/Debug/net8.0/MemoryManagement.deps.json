@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MemoryManagement/1.0.0": {
+        "dependencies": {
+          "BasicConsoleIO": "1.0.0",
+          "Looping": "1.0.0"
+        },
+        "runtime": {
+          "MemoryManagement.dll": {}
+        }
+      },
+      "BasicConsoleIO/1.0.0": {
+        "runtime": {
+          "BasicConsoleIO.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Looping/1.0.0": {
+        "dependencies": {
+          "BasicConsoleIO": "1.0.0"
+        },
+        "runtime": {
+          "Looping.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MemoryManagement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BasicConsoleIO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Looping/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

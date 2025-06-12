@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using static BasicConsoleIO.BasicConsoleIO;
 namespace Looping
 {
-    class Looping
+    public class Looping
     {
         public static void Prototype()
         {
@@ -43,7 +43,7 @@ namespace Looping
             }
         }
 
-        private static void GetPilotNumber(out int pilotNumber)
+        public static void GetPilotNumber(out int pilotNumber)
         {
             do
             {
@@ -51,7 +51,7 @@ namespace Looping
                 Console.WriteLine(!(0 <= pilotNumber && pilotNumber <= 100) ? "Неверное значение, попробуйте ещё." : "Введено верное значение");
             } while (!(0 <= pilotNumber && pilotNumber <= 100));
         }
-        private static void GetHunterGuess(int pilotNumber, out int hunterNumber)
+        public static void GetHunterGuess(int pilotNumber, out int hunterNumber)
         {
             Console.WriteLine();
             do
