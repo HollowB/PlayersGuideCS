@@ -40,7 +40,7 @@
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; +1000 XP<br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
-&nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
+&nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
 :large_blue_circle: Level 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :small_red_triangle: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark: &nbsp;&nbsp;&nbsp; <br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark: &nbsp;&nbsp;&nbsp; <br/>
@@ -83,7 +83,17 @@
 | :white_check_mark: | 89 | The Magic Cannon | 100 |   
 | :white_check_mark: | 94 | The Replicator of D’To | 100 |   
 | :white_check_mark: | 95 | The Laws of Freach | 50 |   
-| :white_check_mark:  | 106 | Taking a Number | 100 |   
+| :white_check_mark: | 106 | Taking a Number | 100 |   
 | :white_check_mark: | 107 | Countdown | 100 |   
-| :black_square_button: | 123 | Knowledge Check - Memory | 25 |   
+| :white_check_mark: | 123 | Knowledge Check - Memory | 25 |   
 | :black_square_button: | 124 | Hunting the Manticore | 250 |  
+
+#### Memory Knowledge Check 25xp
+1. False
+2. True
+3. True
+4. False
+5. True
+6. False
+7. True
+8. False 
