@@ -39,7 +39,7 @@
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; +1000 XP<br/>
-&nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::white_check_mark::white_check_mark::white_check_mark::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
+&nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark: &nbsp;&nbsp;&nbsp; <br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark: &nbsp;&nbsp;&nbsp; <br/>
 :large_blue_circle: Level 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :small_red_triangle: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark: &nbsp;&nbsp;&nbsp; <br/>
@@ -64,7 +64,7 @@
 | :white_check_mark: | 14 | Install Visual Studio | 75 |   
 | :white_check_mark: | 19 | Hello, World! | 50 |   
 | :white_check_mark: | 24 | What Comes Next | 50 |   
-| :white_check_mark: | 24 | The Makings of a Programmer | 50 |   
+| :white_check_mark: | 24 | The Makings of a Programmer | 50 |
 | :white_check_mark: | 26 | Consolas and Telim | 50 |   
 | :white_check_mark: | 31 | The Thing Namer 3000 | 100 |   
 | :white_check_mark: | 37 | Knowledge Check - Variables | 25 |   
@@ -92,17 +92,17 @@
 ### Part 2: Object-oriented Programming
 | :white_check_mark: | <b>Page</b>  | <b>Name</b>  | <b>XP</b> |
 | :---: | ---: | :--- | ---: | 
-| :white_check_mark: | 131 | Knowledge Check - Objects |  |
-| :black_square_button: | 135 | Simula’s Test |  |
-| :black_square_button: | 143 | Simula’s Soups |  |
-| :black_square_button: | 153 | Vin Fletcher’s Arrows |  |
-| :black_square_button: | 162 | Vin’s Trouble |  |
-| :black_square_button: | 168 | The Properties of Arrows |  |
+| :white_check_mark: | 131 | Knowledge Check - Objects | 25 |
+| :white_check_mark: | 135 | Simula’s Test | 100 |
+| :black_square_button: | 143 | Simula’s Soups | 100 |
+| :black_square_button: | 153 | Vin Fletcher’s Arrows | 100 |
+| :black_square_button: | 162 | Vin’s Trouble | 50 |
+| :black_square_button: | 168 | The Properties of Arrows | 100 |
 | :black_square_button: | 173 | Arrow Factories | 100 |
-| :black_square_button: | 191 | The Point |  |
-| :black_square_button: | 191 | The Color |  |
-| :black_square_button: | 191 | The Card |  |
-| :black_square_button: | 192 | The Locked Door |  |
+| :black_square_button: | 191 | The Point | 75 |
+| :black_square_button: | 191 | The Color | 100 |
+| :black_square_button: | 191 | The Card | 100 |
+| :black_square_button: | 192 | The Locked Door | 100 |
 | :black_square_button: | 192 | The Password Validator | 100 |
 | :black_square_button: | 193 | Rock-Paper-Scissors | 150 |
 | :black_square_button: | 194 | 15-Puzzle | 150 |
@@ -137,6 +137,6 @@
 7. True
 8. False 
 
-#### Objects Knowledge Check 25 xp 
+#### Objects Knowledge Check 25 xp :white_check_mark:
 1. Данные и методы
 2. True
