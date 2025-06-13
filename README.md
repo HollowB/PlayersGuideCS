@@ -39,7 +39,7 @@
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; +1000 XP<br/>
-&nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::white_check_mark::white_check_mark::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
+&nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::white_check_mark::white_check_mark::white_check_mark::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark: &nbsp;&nbsp;&nbsp; <br/>
 :large_blue_circle: Level 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :small_red_triangle: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark: &nbsp;&nbsp;&nbsp; <br/>
@@ -88,7 +88,46 @@
 | :white_check_mark: | 123 | Knowledge Check - Memory | 25 |   
 | :white_check_mark: | 124 | Hunting the Manticore | 250 |  
 
-#### Memory Knowledge Check 25xp
+
+### Part 2: Object-oriented Programming
+| :white_check_mark: | <b>Page</b>  | <b>Name</b>  | <b>XP</b> |
+| :---: | ---: | :--- | ---: | 
+| :white_check_mark: | 131 | Knowledge Check - Objects |  |
+| :black_square_button: | 135 | Simula’s Test |  |
+| :black_square_button: | 143 | Simula’s Soups |  |
+| :black_square_button: | 153 | Vin Fletcher’s Arrows |  |
+| :black_square_button: | 162 | Vin’s Trouble |  |
+| :black_square_button: | 168 | The Properties of Arrows |  |
+| :black_square_button: | 173 | Arrow Factories | 100 |
+| :black_square_button: | 191 | The Point |  |
+| :black_square_button: | 191 | The Color |  |
+| :black_square_button: | 191 | The Card |  |
+| :black_square_button: | 192 | The Locked Door |  |
+| :black_square_button: | 192 | The Password Validator | 100 |
+| :black_square_button: | 193 | Rock-Paper-Scissors | 150 |
+| :black_square_button: | 194 | 15-Puzzle | 150 |
+| :black_square_button: | 194 | Hangman | 150 |
+| :black_square_button: | 195 |  Tic-Tac-Toe | 300 |
+| :black_square_button: | 205 | Packing Inventory | 150 |
+| :black_square_button: | 209 | Labeling Inventory | 50 |
+| :black_square_button: | 210 | The Old Robot | 200 |
+| :black_square_button: | 217 | Robotic Interface | 75 |
+| :black_square_button: | 225 | Room Coordinates | 50 |
+| :black_square_button: | 231 | War Preparations | 100 |
+| :black_square_button: | 240 | Colored Items | 100 |
+| :black_square_button: | 242 | The Fountain of Objects | 500 |
+| :black_square_button: | 244 | Small, Medium, or Large | 100 |
+| :black_square_button: | 244 | Pits | 100 |
+| :black_square_button: | 244 | Maelstroms | 100 |
+| :black_square_button: | 245 | Amaroks | 100 |
+| :black_square_button: | 245 | Getting Armed | 100 |
+| :black_square_button: | 246 | Getting Help | 100 |
+| :black_square_button: | 249 | The Robot Pilot | 50 |
+| :black_square_button: | 251 | Time in the Cavern | 50 |
+| :black_square_button: | 255 | Lists of Commands | 75 |
+
+
+#### Memory Knowledge Check 25xp :white_check_mark:
 1. False
 2. True
 3. True
@@ -97,3 +136,7 @@
 6. False
 7. True
 8. False 
+
+#### Objects Knowledge Check 25 xp 
+1. Данные и методы
+2. True
