@@ -7,7 +7,7 @@ using System.Xml.Linq;
 using static BasicConsoleIO.BasicConsoleIO;
 namespace Tuples
 {
-    class Menu
+    public class Menu
     {
         public static string InitiateMenu(string[] items, string name)
         {
@@ -26,7 +26,7 @@ namespace Tuples
                 Console.WriteLine();
                 GetUserInput("Введите свой выбор ", out choise);
 
-            } while (!(choise-1 >= 0 && choise <= items.Length-1));
+            } while (!(choise-1 >= 0 && choise-1 <= items.Length-1));
             return items[choise-1];
         }
 

@@ -37,13 +37,17 @@ class Tuples
 
     public static void SimulasSoup()
     {
-        string seasoning = Menu.InitiateMenu(Enum.GetNames(typeof(Специи)), nameof(Специи));
-        string type = Menu.InitiateMenu(Enum.GetNames(typeof(Тип)), nameof(Тип));
-        string ingridient = Menu.InitiateMenu(Enum.GetNames(typeof(Ингредиент)), nameof(Ингредиент));
+        (string seasoning, string type, string ingridient) soup = (
+            Menu.InitiateMenu(Enum.GetNames(typeof(Специи)), nameof(Специи)),
+            Menu.InitiateMenu(Enum.GetNames(typeof(Тип)), nameof(Тип)), 
+            Menu.InitiateMenu(Enum.GetNames(typeof(Ингредиент)), nameof(Ингредиент)));
+        //string seasoning = Menu.InitiateMenu(Enum.GetNames(typeof(Специи)), nameof(Специи));
+        //string type = Menu.InitiateMenu(Enum.GetNames(typeof(Тип)), nameof(Тип));
+        //string ingridient = Menu.InitiateMenu(Enum.GetNames(typeof(Ингредиент)), nameof(Ингредиент));
 
         Console.Clear();
         Console.WriteLine();
 
-        ShowMessage($"{seasoning} {type} из {ingridient} ", ConsoleColor.Blue);
+        ShowMessage($"{soup.seasoning} {soup.type} из {soup.ingridient} ", ConsoleColor.Blue);
     }
 }
