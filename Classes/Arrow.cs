@@ -22,7 +22,7 @@ namespace Classes
         public int Shaft
         {
             get => _shaft;
-            set => _shaft = value;
+            private set => _shaft = value;
         }
 
         public Fletching Fletch
