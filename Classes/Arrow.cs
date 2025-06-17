@@ -9,27 +9,10 @@ namespace Classes
 {
     public class Arrow
     {
-        private Arrowhead _head;
-        private int _shaft;
-        private Fletching _fletch;
+        private Arrowhead Head { get; set; }
+        private int Shaft { get; }
+        private Fletching Fletch { get; set; }
 
-        public Arrowhead Head
-        {
-            get => _head;
-            set => _head = value;
-        }
-
-        public int Shaft
-        {
-            get => _shaft;
-            private set => _shaft = value;
-        }
-
-        public Fletching Fletch
-        {
-            get => _fletch;
-            set => _fletch = value;
-        }
         public Arrow()
         {
             int length = 0;
