@@ -36,8 +36,8 @@
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
 :white_circle: Level 6 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :small_red_triangle: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/>
-&nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
-&nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
+&nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::white_check_mark::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button::black_square_button: &nbsp;&nbsp;&nbsp; <br/>
+&nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark: &nbsp;&nbsp;&nbsp; <br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark: &nbsp;&nbsp;&nbsp; +1000 XP<br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark: &nbsp;&nbsp;&nbsp; <br/>
 &nbsp;║&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark::white_check_mark: &nbsp;&nbsp;&nbsp; <br/>
@@ -98,7 +98,7 @@
 | :white_check_mark: | 153 | Vin Fletcher’s Arrows | 100 |
 | :white_check_mark: | 162 | Vin’s Trouble | 50 |
 | :white_check_mark: | 168 | The Properties of Arrows | 100 |
-| :black_square_button: | 173 | Arrow Factories | 100 |
+| :white_check_mark: | 173 | Arrow Factories | 100 |
 | :black_square_button: | 191 | The Point | 75 |
 | :black_square_button: | 191 | The Color | 100 |
 | :black_square_button: | 191 | The Card | 100 |

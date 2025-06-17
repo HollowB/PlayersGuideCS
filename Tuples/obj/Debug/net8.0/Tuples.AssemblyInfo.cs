@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tuples")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+862f69db99a30f2f8b8d37e32ef0499ef2b60108")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7305378e86fea5053662b826cfbeeb4899cebabf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tuples")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tuples")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
